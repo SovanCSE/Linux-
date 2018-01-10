@@ -1,0 +1,48 @@
+1. pwd: The pwd command stands for (print working directory). 
+             It displays the current working location or directory of the user. 
+              It displays the whole working path starting with /. It is a built-in command.
+
+2. ls: The ls command is used to show the list of a folder. 
+            It will list out all the files in the directed folder.
+
+3. cd: The cd command stands for (change directory). 
+          It is used to change to the directory you want to 
+          work from the present directory.
+
+4. mkdir:  With mkdir command you can create your own directory.
+
+5. rmdir: The rmdir command is used to remove a directory from your system.
+
+6. file: Determines file type.
+
+7. touch: Used to create a file.
+
+8. rm: To remove a file.
+
+9. cp: To copy a file.
+
+10. mv: To rename or to move a file.
+
+11. rename: To rename file.
+
+12. man -aw: List all available sections of a command.
+
+13. man -a: To view all man pages of a command.
+
+14. sman -k (apropos): Shows a list of results in man page containing a keyword match.
+
+15. -f, whatis: It displays description from manual page if available..
+
+16. whereis: Used to determine location of a man page.
+
+17. head: It displays the beginning of a file.
+
+18. tail: It displays the last last part of a file.
+
+19. cat: This command is versatile and multi worker.
+
+20. tac: Opposite of cat.
+
+21. more: Command line diaplays contents in pager form that is either in more format.
+
+22. less: Command line diaplays contents in pager form that is either in less format.
