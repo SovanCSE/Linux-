@@ -1,0 +1,17 @@
+1. echo: “echo” is a command that helps us move some data, 
+         usually text into a file. For example, if you want
+         to create a new text file or add into an already made text 
+         file, then you just need to type in “echo hello, my name is alok >> new.txt”.
+         You do not need to separate the spaces by using the backward slash here
+          because we put in two triangular brackets when we finish what we need to write.
+Example:(It help to move some data to a exiting file or create a file)
+>echo hello, my name is Sovan >> new.txt
+
+2.cat: The cat command is used to display the contents of a file, 
+          usually used to easily view programs.
+
+Example:
+>cat next.txt
+Output :hello, my name is Sovan
+
+3.
