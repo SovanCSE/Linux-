@@ -1,29 +1,106 @@
+Links: https://diyhacking.com/linux-commands-for-beginners/
+
+
 1. pwd: The pwd command stands for (print working directory). 
              It displays the current working location or directory of the user. 
               It displays the whole working path starting with /. It is a built-in command.
+Example:
+> pwd
+
 
 2. ls: The ls command is used to show the list of a folder. 
             It will list out all the files in the directed folder.
 
-3. cd: The cd command stands for (change directory). 
-          It is used to change to the directory you want to 
-          work from the present directory.
+Example:
+
+>ls
+
+3. cd: “cd” is the command used to go to a directory. For example, if you are in the 
+      home folder, and you want to go to the Downloads folder, then you can type in “cd
+      Downloads”. Remember, this command is case sensitive and you have to type in the 
+      name of the folder exactly as it is. But there is a problem with these commands. 
+      Imagine you have a folder named “Raspberry Pi”. In this case, when you type in “cd 
+      Raspberry Pi”, the shell will take the second argument of the command as a different 
+      one, so you will get an error saying that the directory does not exist. Here, you can
+      use a backward slash. That is, you can use “cd Raspberry\ Pi” in this case. Spaces are
+      denoted like this: If you just type “cd” and press Enter, it takes you to the home directory.
+      To go back from a folder to the folder before that, you can type “cd ..” . The two dots represent back.
+
+Example:(It shows all files and folders)
+>cd filename
+>cd filename\remainig name
+>cd..(To go back from the folder to the folder before that)
+>cd(It go back to home directory)
 
 4. mkdir:  With mkdir command you can create your own directory.
 
+Example:
+>mkdir foldername
+
 5. rmdir: The rmdir command is used to remove a directory from your system.
 
-6. file: Determines file type.
+Example:
+>rmdir foldername(It used to delete a directory)
 
-7. touch: Used to create a file.
 
-8. rm: To remove a file.
+6. touch: The touch command is used to create a file. It can be anything, from 
+            an empty txt file to an empty zip file. 
 
-9. cp: To copy a file.
+    For example – “touch new.txt”.
 
-10. mv: To rename or to move a file.
+7. file: Determines file type.
+
+Example:
+>file filename
+
+Example:
+> touch filename.txt(With extension)
+> touch filename(Without extension)
+
+
+8. rm: The rm command is used to delete files and directories. rm cannot simply
+      delete a directory. “rm -r” is used to delete a directory. In this case,
+      it deletes both the folder and the files in it.
+
+Example:
+>rm filename.txt  or  rm filename ( It is only used to delete a file only)
+>rm -r filename or rm -r foldername( It is used to delete folder and folder both)
+
+9. cp: The cp command is used to copy files through the command line. 
+       It takes two arguments, the first one is location of the file
+       to be copied, the second is where to copy.
+
+Eaxmple:(First go the current directory from where have to do copy the file)
+> cp copiedfile /home/programming/Documents
+copiedfile contains that file to be copied. This copiedfile will be copy in Documents folder.
+
+10. mv: The mv command is used to move files through the command line. 
+        We can also use the mv command to rename a file. For example, 
+        if we want to rename the file “text” to “new”, we can use “mv 
+        text new”. It takes the two arguments just like the cp command.
+
+Example:(First go the current directory from where have to change the file name)
+> mv oldfilename newfile
 
 11. rename: To rename file.
+>
+
+
+12. Locate:  The locate command is used to locate a file in a Linux System, 
+              just like the search command in Windows. This command is useful
+             when you don’t know where a file is saved or the actual name of the
+             file. Using the –i argument with the command, helps to ignore the 
+             case (it doesn’t matter if it is Capital or Small). So, if you want
+             a file that has the word “hello”, it gives the list of all the files
+             in your Linux System containing the word “hello” when you type in “locate
+             -i hello”. If you remember two words, you can separate it using asterisk (*).
+              For example, to locate a file containing the words “hello” and “this”, you
+              can use the command “locate –i *hello*this ”
+
+>locate filename (It gives you the full path where file is presented)
+>locate -i filename(Here filename can be upper and lower character inputed by user, it does not matter)
+>locate -i *file*data (Not case sensitive and searching the file that contains "file" and "data" words)
+
 
 12. man -aw: List all available sections of a command.
 
