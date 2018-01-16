@@ -1,0 +1,17 @@
+All are do after press the i 
+delete=>take the delete on the character, 
+        that way delete character one by one.
+
+
+All are do after press the esc botton.
+ctrl+dd=> delete the full line.
+u=> undo prvious one.
+A=go to line end at first space.
+ctrl+_(underscore)=> go to the first character on the line
+
+Position the cursor where you want to begin cutting.
+Press v to select characters (or uppercase V to select whole lines).
+Move the cursor to the end of what you want to cut.
+Press d to cut (or y to copy).
+Move to where you would like to paste.
+Press P to paste before the cursor, or p to paste after.
