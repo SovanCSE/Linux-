@@ -29,7 +29,7 @@ Example:
 Example:(It shows all files and folders)
 >cd filename
 >cd filename\remainig name
->cd..(To go back from the folder to the folder before that)
+>cd ..(To go back from the folder to the folder before that)
 >cd(It go back to home directory)
 
 4. mkdir:  With mkdir command you can create your own directory.
@@ -47,15 +47,16 @@ Example:
             an empty txt file to an empty zip file. 
 
     For example – “touch new.txt”.
+Example:
+> touch filename.txt(With extension)
+> touch filename(Without extension)
+
 
 7. file: Determines file type.
 
 Example:
 >file filename
 
-Example:
-> touch filename.txt(With extension)
-> touch filename(Without extension)
 
 
 8. rm: The rm command is used to delete files and directories. rm cannot simply
