@@ -1,7 +1,7 @@
-1. echo: “echo” is a command that helps us move some data, 
+1. echo: â€œechoâ€ is a command that helps us move some data, 
          usually text into a file. For example, if you want
          to create a new text file or add into an already made text 
-         file, then you just need to type in “echo hello, my name is alok >> new.txt”.
+         file, then you just need to type in â€œecho hello, my name is alok >> new.txtâ€.
          You do not need to separate the spaces by using the backward slash here
           because we put in two triangular brackets when we finish what we need to write.
 Example:(It help to move some data to a exiting file or create a file)
@@ -12,6 +12,22 @@ Example:(It help to move some data to a exiting file or create a file)
 
 Example:
 >cat next.txt
-Output :hello, my name is Sovan
+Output : hello, my name is Sovan
+
+More works of cat command:
+ i. cat command can add two file and display the result.
+ >cat file1 file2
+ contains of file 1
+ contains of file 2
+ 
+How to create and execute shell extention file using cat command?
+
+cat > filename.sh ( that command is used for create and write something in file)
+write contains of file
+ls -l filename.sh (This command is used for check that file is taken permission for execution or not.)
+chmod 755 filename.sh (It takes a permission for execution)
+./file.sh (Run execution)
+
+
 
 3.
